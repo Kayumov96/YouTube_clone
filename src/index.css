@@ -6,3 +6,40 @@ body{
   margin: 0 8%;
   padding: 0;
 }
+.active{
+  color: #46A358;
+}
+.mainHeaderPageContainer{
+  overflow: hidden;
+}
+.slidePages{
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory ;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+.slidePages::-webkit-scrollbar-track{
+  background: transparent;
+} 
+.headerPage1{
+  scroll-snap-align: start;
+ flex-shrink: 0;
+ transform-origin: center center;
+ transform: scale(1);
+ transition: transform 0.5s;
+ position: relative;
+}
+.headerPage1:target{
+  transform: scale(0.8);
+}
+.mainHeaderPageContainer > a{
+  display:block;
+  text-decoration: none;
+}
+a:active{
+  top: 2px;
+}
+a:focus{
+  background: #46A358;
+}
