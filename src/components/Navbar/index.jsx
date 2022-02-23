@@ -1,20 +1,13 @@
 import React, { useState } from 'react';
-import { Container, Left, Right, Div, Img, H1, H5, Icon, Btn, Header, Span, Sspan, Miniimg } from './style';
+import { Container, Div, Img, H1, H5, Icon, Btn, Header, Span, Sspan, Miniimg } from './style';
 import logo from '../../assets/images/logo.png';
-import { navbar } from '../../mock/mock';
 import search from '../../assets/icons/search.svg';
 import card from '../../assets/icons/card.svg';
 import logout from '../../assets/icons/logout.svg';
 
-export const Navbar = () => {
+export const Navbar = ({dta}) => {
 
-
-    const [data, setActive]= useState(navbar);
-    
-    
-    
-
-        return (
+     return (
     <div>
         <Container>
           <Div> <Img src={logo} alt='logo' />
@@ -22,8 +15,8 @@ export const Navbar = () => {
           </Div>
           <Div style={{justifyContent:'space-around', width:'850px'}}>  
             {
-                data.map((value)=>(
-                    <h2 key={value.id} style={{cursor:'pointer'}}>{value.title}</h2>
+                dta.map((value)=>(
+                    <h2 key={value.id} style={{cursor: 'pointer'}} >{value.title}</h2>
                 ))
             }
           </Div>

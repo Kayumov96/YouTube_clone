@@ -1,5 +1,4 @@
 *{
-
   font-family: Cera Pro;
 }
 body{
@@ -9,15 +8,13 @@ body{
 .active{
   color: #46A358;
 }
-.mainHeaderPageContainer{
-  overflow: hidden;
-}
+
 .slidePages{
   display: flex;
-  overflow-x: auto;
-  scroll-snap-type: x mandatory ;
+  overflow-x: hidden;
+  scroll-snap-type: x proximity ;
   scroll-behavior: smooth;
-  -webkit-overflow-scrolling: touch;
+  
 }
 .slidePages::-webkit-scrollbar-track{
   background: transparent;
@@ -33,13 +30,4 @@ body{
 .headerPage1:target{
   transform: scale(0.8);
 }
-.mainHeaderPageContainer > a{
-  display:block;
-  text-decoration: none;
-}
-a:active{
-  top: 2px;
-}
-a:focus{
-  background: #46A358;
-}
+

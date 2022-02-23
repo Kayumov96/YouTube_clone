@@ -25,7 +25,7 @@ export const H5 = styled.h5`
 `;
 export const Span = styled.div`
  width: 530px;
- display: flexbox;
+ /* display: flexbox; */
  flex-wrap: nowrap;
  text-transform: uppercase;
  height: 140px;

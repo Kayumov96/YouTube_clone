@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import BodyCard from './BodyCard/index';
 import { Head } from './Header/index';
 
-export const Body = () => {
-  return (
+export const Body = ({plantsFilter}) => {
+    return (
     <div>
         <Head/>
-        <BodyCard/>
+        <BodyCard data={plantsFilter}/>
     </div>
   )
 }
