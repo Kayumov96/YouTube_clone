@@ -1,8 +1,5 @@
 import React from "react";
 import { Header,Left,H5,Span,Sspan,Btn,Right,Miniimg,Icon, Slider } from "./style";
-import search from '../../../assets/icons/search.svg';
-import card from '../../../assets/icons/card.svg';
-import logout from '../../../assets/icons/logout.svg';
 import image4 from '../../../assets/images/image4.png';
 import circle from '../../../assets/icons/circle.svg';
 import image3 from '../../../assets/images/image3.png';

@@ -30,4 +30,19 @@ body{
 .headerPage1:target{
   transform: scale(0.8);
 }
-
+.sorter{
+  justify-content:space-around;
+  margin: 0 20px;
+  cursor: pointer;
+}
+.sortBy{
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+  margin-left: 350px
+}
+.selectTag{
+  border: none;
+  outline: none;
+}

@@ -42,14 +42,16 @@ export const Sspan = styled.div`
  line-height: 24px;
 `;
 export const Right =styled.div`
-flex: 1;
-align-items: center;
-justify-content: center;
-display: flex;
+ flex: 1;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
 `;
 
 export const Icon = styled.img`
  cursor: pointer;
+ 
 `;
 export const Miniimg =styled.img`
  width: 135px;
@@ -76,7 +78,7 @@ export const Slider = styled.div`
  width: 40px;
  height: 8px;
  position: absolute;
- top: 65%;
+ top: 60%;
  left: 50%;
  justify-content: space-around;
 `;

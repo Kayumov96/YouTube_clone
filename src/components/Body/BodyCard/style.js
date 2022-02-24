@@ -23,7 +23,6 @@ export const FilterDiv = styled.div`
  align-items: center;
  display: flex;
  padding-left: 20px;
- background: green;
 `;
 export const CardDivContainer =styled.div`
  width: 840px;
