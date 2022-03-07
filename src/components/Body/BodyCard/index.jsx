@@ -34,7 +34,7 @@ export const BodyCard = ( { data } ) => {
                <div key={value.id}>
                <CardDiv >
                  <CardImg src={value.image}/>
-                 <CardIcons className='visible'>
+                 <CardIcons className='iconHover'>
                    <CardImg style={{height:'20px',width:'20px'}} src={card}/>
                    <CardImg style={{height:'18px',width:'18px'}} src={heart}/>
                    <CardImg style={{height:'19px',width:'19px'}} src={search}/>

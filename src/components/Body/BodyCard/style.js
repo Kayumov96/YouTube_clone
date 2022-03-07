@@ -34,17 +34,17 @@ export const CardDivContainer =styled.div`
  flex-wrap: wrap;
 `;
 export const CardIcons =styled.div`
-  margin-top:28%;
+  margin-top:250px;
   justify-content: space-around;
   width: 100px;
   position: absolute;
   display: flex;
-  visibility: hidden;
 `;
 
 export const CardImg =styled.img`
  width: 230px;
  height: 230px;
+ mix-blend-mode: multiply;
 `;
 export const CardDiv =styled.div`
  width: 258px;

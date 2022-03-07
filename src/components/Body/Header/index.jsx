@@ -29,7 +29,7 @@ export const Head =()=>{
                  </Right>
                      
                 </Header>
-                <Header className='headerPage1' id="header2">
+                <Header className='headerPage2' id="header2">
                  <Left>
                      <H5>Welcome to Greenshop</H5>
                      <Span>Let’s Make a Better <span className='active'>Planet</span></Span>
@@ -43,7 +43,7 @@ export const Head =()=>{
                      <Icon src={image3} alt='product n3'/>
                  </Right>
                 </Header>
-                <Header className='headerPage1' id="header3">
+                <Header className='headerPage3' id="header3">
                  <Left>
                      <H5>Welcome to Greenshop</H5>
                      <Span>Let’s Make a Better <span className='active'>Planet</span></Span>
@@ -56,7 +56,8 @@ export const Head =()=>{
                      {/* <Miniimg  src={image4} alt='product n4'/> */}
                      <Icon  src={image6} alt='product n6'/>
                  </Right>
-                </Header></div>
+                   </Header>
+                </div>
           </div>
        )       
 }

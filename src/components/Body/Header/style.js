@@ -5,6 +5,7 @@ export const Header = styled.div`
  height: 450px;
  display: flex;
  width: 1200px;
+ /* margin-left; */
  position: relative;
  margin-top: 12px;
  background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
@@ -13,6 +14,7 @@ export const Left = styled.div`
  flex: 1.5;
  padding-left: 43px;
  padding-top: 68px;
+
 `;
 export const H5 = styled.h5`
  font-weight: 500;
@@ -46,12 +48,11 @@ export const Right =styled.div`
  align-items: center;
  justify-content: center;
  display: flex;
- background: linear-gradient(97.77deg, rgba(245, 245, 245, 0.5) -23.46%, rgba(245, 245, 245, 0.5) 107.51%);
 `;
 
 export const Icon = styled.img`
  cursor: pointer;
- 
+ mix-blend-mode: multiply;
 `;
 export const Miniimg =styled.img`
  width: 135px;
@@ -78,7 +79,7 @@ export const Slider = styled.div`
  width: 40px;
  height: 8px;
  position: absolute;
- top: 60%;
- left: 50%;
+ top: 500px;
+ left: 590px;
  justify-content: space-around;
 `;

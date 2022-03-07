@@ -12,13 +12,25 @@ body{
 .slidePages{
   display: flex;
   overflow-x: hidden;
-  scroll-snap-type: x proximity ;
+  scroll-snap-type: x proximity;
   scroll-behavior: smooth;
-  
+  gap: 120px;
 }
 .slidePages::-webkit-scrollbar-track{
   background: transparent;
 } 
+.iconHover{
+    visibility: hidden;
+    align-items: center;
+    column-gap: 90px;
+    transition: all 0.5s;
+}
+  :hover+ .iconHover{     
+       height: 35px;
+      visibility: visible;
+      column-gap: 15px;
+  };
+
 .headerPage1{
   scroll-snap-align: start;
  flex-shrink: 0;
