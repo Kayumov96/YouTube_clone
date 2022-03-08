@@ -1,9 +1,9 @@
 import React from "react";
 import { Header,Left,H5,Span,Sspan,Btn,Right,Miniimg,Icon, Slider } from "./style";
-import image4 from '../../../assets/images/image4.png';
-import circle from '../../../assets/icons/circle.svg';
-import image3 from '../../../assets/images/image3.png';
-import image6 from  '../../../assets/images/image6.png';
+import image4 from '../../assets/images/image4.png';
+import circle from '../../assets/icons/circle.svg';
+import image3 from '../../assets/images/image3.png';
+import image6 from  '../../assets/images/image6.png';
 
 export const Head =()=>{
        return(
@@ -29,7 +29,7 @@ export const Head =()=>{
                  </Right>
                      
                 </Header>
-                <Header className='headerPage2' id="header2">
+                {/* <Header className='headerPage2' id="header2">
                  <Left>
                      <H5>Welcome to Greenshop</H5>
                      <Span>Let’s Make a Better <span className='active'>Planet</span></Span>
@@ -39,7 +39,7 @@ export const Head =()=>{
                      <Btn style={{width:'140px', height:'40px', marginTop:'44px'}}>SHOP NOW</Btn>
                  </Left>
                  <Right>
-                     {/* <Miniimg  src={image4} alt='product n4'/> */}
+                     
                      <Icon src={image3} alt='product n3'/>
                  </Right>
                 </Header>
@@ -53,10 +53,10 @@ export const Head =()=>{
                      <Btn style={{width:'140px', height:'40px', marginTop:'44px'}}>SHOP NOW</Btn>
                  </Left>
                  <Right>
-                     {/* <Miniimg  src={image4} alt='product n4'/> */}
+                   
                      <Icon  src={image6} alt='product n6'/>
                  </Right>
-                   </Header>
+                   </Header> */}
                 </div>
           </div>
        )       

@@ -12,16 +12,16 @@ import image9 from '../assets/images/image9.png';
 
 
 export const navbar =[
-    {id:1, title: 'Home'},
-    {id:2, title: 'Shop'},
-    {id:3, title: 'Plant Care'},
-    {id:4, title: 'Blogs'}
+    {id:1, title: 'Home', path: '/'},
+    {id:2, title: 'Shop', path:'/shop'},
+    { id: 3, title: 'Plant Care', path:'/plantcare'},
+    {id:4, title: 'Blogs', path:'blogs'}
 ];
 
 export const itemSorting = [
-    {id:1, title:' All Plants '},
-    {id:2, title:' New Arrivals '},
-    {id:3, title:' Sale '}
+    {id:5, title:' All Plants '},
+    {id:6, title:' New Arrivals '},
+    {id:7, title:' Sale '}
 ]
 
 export const flowers =[

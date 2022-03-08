@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Container, Div, Img, H1, H5, Icon, Btn, Header, Span, Sspan, Miniimg } from './style';
+import React from 'react';
+import { Container, Div, Img, H1, Icon, Btn, Link} from './style';
 import logo from '../../assets/images/logo.png';
 import search from '../../assets/icons/search.svg';
 import card from '../../assets/icons/card.svg';
@@ -16,7 +16,7 @@ export const Navbar = ({dta}) => {
           <Div style={{justifyContent:'space-around', width:'850px'}}>  
             {
                 dta.map((value)=>(
-                    <h2 key={value.id} style={{cursor: 'pointer'}} >{value.title}</h2>
+                    <Link key={value.id} to={value.path}> {value.title}</Link>
                 ))
             }
           </Div>

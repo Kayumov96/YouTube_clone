@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { NavLink } from 'react-router-dom'
 
 export const Container = styled.div`
  height: 60px;
@@ -40,4 +41,9 @@ export const Btn = styled.button`
  border-radius: 6px;
  border: none;
  cursor: pointer;
+`;
+export const Link = styled( NavLink )`
+ font-size: 16px;
+ text-decoration:none ;
+ border-bottom: 2px solid #46A358;
 `;
