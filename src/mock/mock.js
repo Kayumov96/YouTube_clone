@@ -12,10 +12,10 @@ import image9 from '../assets/images/image9.png';
 
 
 export const navbar =[
-    {id:1, title: 'Home', path: '/'},
-    {id:2, title: 'Shop', path:'/shop'},
-    { id: 3, title: 'Plant Care', path:'/plantcare'},
-    {id:4, title: 'Blogs', path:'blogs'}
+    {id:1, title: 'Home', path: '/', child:[], hidden:false},
+    {id:2, title: 'Shop', path:'/shop', child:[], hidden:false},
+    { id: 3, title: 'Plant Care', path:'/plantcare', child:[], hidden:false},
+    {id:4, title: 'Blogs', path:'/blogs', child:[], hidden:false}
 ];
 
 export const itemSorting = [
@@ -65,7 +65,7 @@ export const flowers =[
     Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. `,
     dinningRoom:`The benefits of houseplants are endless. In addition to cleaning the air of harmful toxins, they can help to improve your mood, reduce stress and provide you with better sleep. Fill every room of your home with houseplants and their restorative qualities will improve your life.`},
 
-    {id:9, title:'Chinese Evevrgreen ',  image:image9, price:39.00, categories:'Small Plants', sku: 19957518779676,
+    {id:9, title:'Chinese Evergreen ',  image:image9, price:39.00, categories:'Small Plants', sku: 19957518779676,
     productDescription:`The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.
     Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. `,
     dinningRoom:`The benefits of houseplants are endless. In addition to cleaning the air of harmful toxins, they can help to improve your mood, reduce stress and provide you with better sleep. Fill every room of your home with houseplants and their restorative qualities will improve your life.`},

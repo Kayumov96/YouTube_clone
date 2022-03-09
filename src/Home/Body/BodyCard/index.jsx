@@ -22,7 +22,7 @@ export const BodyCard = ( { data } ) => {
             ) ) }
           <div className='sortBy'>
             <h5>Sortby:</h5>
-            <select name="" id="" className='selectTag' onchange={onValueSelect}>
+            <select name="" id="" className='selectTag' onChange={onValueSelect}>
               <option value="id">Default sorting</option>
               <option value="price">Price sorting</option>
               <option value="title">Name sorting</option>
