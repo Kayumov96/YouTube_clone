@@ -4,6 +4,7 @@ import Navbar from '../Home/Navbar';
 import { itemSorting } from '../mock/mock';
 import { navbar } from '../mock/mock';
 import Home from '../Home';
+import Error from '../Generic/Error/index';
 import Shop from '../Shop';
 import PlantCare from '../Plantcare';
 import Blogs from '../Blogs'
@@ -20,6 +21,7 @@ export const Root = () => {
   return (
     <div> 
       <Router>
+        
         <Navbar dta={data}/>
         {/* <Body plantsFilter={ dat } /> */}
         <Switch>
@@ -27,7 +29,7 @@ export const Root = () => {
         <Route exact path={ '/shop' } component={ Shop } />
         <Route exact path={ '/plantcare' } component={ PlantCare } />
         <Route exact path={ '/blogs' } component={ Blogs } />
-        <Route path='*'  element={<h1>404 Not Found</h1> }/>
+          <Route path='*'> <Error /> </Route>  
       </Switch>
       </Router>
     </div>
