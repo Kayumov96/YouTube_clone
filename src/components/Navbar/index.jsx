@@ -1,11 +1,11 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
-import { Container, Icon, Iconsdiv, Logo, Logodiv, Logotext, Navbutton, Navdiv, Navtext } from './style'
+import { Container, Icon, Iconsdiv, Logo, Logodiv, Logotext, Navbutton, Navdiv, Navtext, } from './style'
 import { navbar } from '../../Utils/Navbar'
 import logo from '../../assets/images/logo.png'
 import search from '../../assets/icons/search.svg'
 import card from '../../assets/icons/card.svg'
 import logout from '../../assets/icons/logout.svg'
+import { NavLink } from 'react-router-dom'
 
 export const Navbar = () => {
     return (
@@ -17,7 +17,15 @@ export const Navbar = () => {
                 </Logodiv>
                 <Navdiv> {
                     navbar.map( ( parent ) => (
-                     <NavLink key={parent.id} to={parent.path}> <Navtext >{ parent.title}</Navtext></NavLink>
+                        <NavLink className="navlink"
+                            style={ ( { isActive } ) => {
+                                return {
+                                   borderBottom: isActive ? '3px solid #46A358': 'none'
+                                }  
+                            }}
+                            key={ parent.id } to={ parent.path }>
+                           <Navtext> { parent.title }</Navtext>
+                        </NavLink>
                     ))
                   }
                 </Navdiv>

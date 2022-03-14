@@ -1,6 +1,7 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
-export const Container = styled.div`
+
+const Container = styled.div`
  width: 100%;
  height: 60px;
  display: flex;
@@ -8,30 +9,30 @@ export const Container = styled.div`
  justify-content: space-between;
  border-bottom:  0.3px solid rgba(70, 163, 88, 0.5);
 `;
-export const Logodiv = styled.div`
+const Logodiv = styled.div`
  display: flex;
  align-items: center;
  height: inherit;
 `;
-export const Logo = styled.img`
+const Logo = styled.img`
  width: 34px;
  height: 34px;
  cursor: pointer;
 `;
-export const Logotext = styled.h1`
+const Logotext = styled.h1`
  color:#46A358;
  font-size: 24px;
  text-transform: uppercase;
  cursor: pointer;
 `;
-export const Navdiv = styled.div`
+const Navdiv = styled.div`
  width: 400px;
  height:inherit;
  display: flex;
  align-items: center;
  justify-content: space-around;
 `;
-export const Navtext = styled.div`
+const Navtext = styled.div`
  height: inherit;
  font-size: 16px;
  color: #3d3d3d;
@@ -40,19 +41,19 @@ export const Navtext = styled.div`
  align-items: center;
  cursor: pointer;
 `;
-export const Iconsdiv = styled.div`
+const Iconsdiv = styled.div`
  width: 220px;
  height: inherit;
  display: flex;
  justify-content: space-between;
  align-items: center;
 `;
-export const Icon = styled.img`
+const Icon = styled.img`
  width: 20px;
  height:20px;
  cursor: pointer;
 `;
-export const Navbutton = styled.button`
+const Navbutton = styled.button`
  width: 100px;
  height: 35px;
  border-radius:6px;
@@ -64,3 +65,5 @@ export const Navbutton = styled.button`
  outline: none;
  border: none;
 `;
+
+export {Container, Logodiv, Logotext, Logo, Navdiv, Navtext, Navbutton, Icon, Iconsdiv,}
