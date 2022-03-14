@@ -10,14 +10,6 @@ import image9 from '../assets/images/image9.png';
 
 
 
-
-export const navbar =[
-    {id:1, title: 'Home', path: '/', child:[], hidden:false},
-    {id:2, title: 'Shop', path:'/shop', child:[], hidden:false},
-    { id: 3, title: 'Plant Care', path:'/plantcare', child:[], hidden:false},
-    {id:4, title: 'Blogs', path:'/blogs', child:[], hidden:false}
-];
-
 export const itemSorting = [
     {id:5, title:' All Plants '},
     {id:6, title:' New Arrivals '},
