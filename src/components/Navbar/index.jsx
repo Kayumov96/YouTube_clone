@@ -34,7 +34,7 @@ export const Navbar = () => {
                     <Icon style={ { width: '24px' } } src={ card } alt="card" />
                     <Navbutton>
                         <Icon src={ logout } alt="logout" />
-                        <Navtext style={ { color: '#fff'}}>Login</Navtext>
+                        <Navtext style={ { color: '#fff', fontSize:'15px'}}>Login</Navtext>
                     </Navbutton>
                 </Iconsdiv>
           </Container>

@@ -1,6 +1,5 @@
 import React, {createContext} from "react";
 import { flowers } from "../mock/mock";
-import navbar from "../Utils/Navbar"
 
 export const FlowerContext = createContext()
 
