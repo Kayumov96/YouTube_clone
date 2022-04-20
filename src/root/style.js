@@ -6,7 +6,7 @@ const Container = styled.div`
 `;
 const Wrapper = styled.div`
  flex: 8;
- border: 1px solid red;
- background: #202020;
+ /* background: #202020; */
+ background: #0e0e0e;
 `;
 export { Container, Wrapper };

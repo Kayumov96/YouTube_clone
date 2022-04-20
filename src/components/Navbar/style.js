@@ -21,7 +21,7 @@ const Sort = styled.div`
 `;
 const Serch = styled.input`
  outline: none;
- padding-right: 5px;
+ 
  width:80%;
  height: 30px;
  background:#000000;
