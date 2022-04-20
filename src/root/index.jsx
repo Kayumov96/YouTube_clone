@@ -1,16 +1,18 @@
 import React from 'react'
-import Navbar from '../components/Navbar'
-import{Route, Routes} from 'react-router-dom'
-import { Container } from './style'
+import Body from '../components/Body';
+import Navbar from '../components/Navbar';
+import Sidebar from '../components/Sidebar';
+import { Container, H2, Wrapper } from './style';
 
-
-export const Root = ({navbar}) => {
-
-
+export const Root = () => {
   return (
-    <div> 
-        <Navbar navbar={navbar}/>  
-    </div>
+      <Container>
+          <Sidebar />
+          <Wrapper>
+              <Navbar />
+              <Body/>
+          </Wrapper>
+      </Container>
   )
 }
 export default Root;

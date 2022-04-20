@@ -1,20 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOMClient from 'react-dom/client';
 import './index.css';
 import Root from './root';
-import {BrowserRouter as Router} from 'react-router-dom'
-import { Flower } from './context/context.jsx'
 
+ const root =ReactDOMClient.createRoot( document.getElementById('root'));
 
-
-
-ReactDOM.render(
-  <React.StrictMode>
-    <Router>
-    <Flower>  
-    <Root />
-    </Flower>
-    </Router>
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+root.render(
+  <Root />
+ );
