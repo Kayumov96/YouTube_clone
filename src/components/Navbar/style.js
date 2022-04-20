@@ -5,6 +5,9 @@ const Container = styled.div`
  height: 20%;
 `;
 const Search = styled.div`
+ display: flex;
+ align-items: center;
+ justify-content: center;
  width: 100%;
  height: 55px;
  background: #212121;
@@ -16,4 +19,12 @@ const Sort = styled.div`
  background: #212121;
  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 `;
-export { Container, Search, Sort };
+const Serch = styled.input`
+ outline: none;
+ padding-right: 5px;
+ width:80%;
+ height: 30px;
+ background:#000000;
+ border: 1px solid rgba(255, 255, 255, 0.2);
+`;
+export { Container, Search, Sort, Serch };
